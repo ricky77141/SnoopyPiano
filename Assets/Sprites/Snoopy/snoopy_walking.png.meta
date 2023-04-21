@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: 115ad6f4d86afbb4ba29c7fbb3a19750
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snoopy_walking_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1504
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.52203417, y: 0.45895034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bded8a0e86de54daa62bf633844ed9
+      internalID: 1332419563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snoopy_walking_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1501
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5440686, y: 0.4425307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0406a473698b05840b54ac3d49de7e93
+      internalID: 915881986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snoopy_walking_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1503
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5220341, y: 0.48357978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1b87d2003b66c40bd62b46aeda94e7
+      internalID: 2950446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snoopy_walking_3
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1502
+        width: 155
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa85844e4fcad341be8310ce565bc9a
+      internalID: -1089932559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snoopy_walking_4
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1502
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5330507, y: 0.46716017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e347c7b7a21fee0468626b82d679b81b
+      internalID: -1903108545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snoopy_walking_5
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1504
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.55508524, y: 0.45895034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d2d4714cb512a4a8b7cb30f4b05cb1
+      internalID: -681893191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snoopy_walking_6
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1502
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.511017, y: 0.48357978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581249d616e7d78499d1343132901486
+      internalID: -400395706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snoopy_walking_7
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1503
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5440674, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fef73606cebe6e4596c7f6c6198a0af
+      internalID: -1563302899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iddle1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1234
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.52203405, y: 0.48358008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3172731368b004e8110947ff0b9395
+      internalID: 408792410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 966
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5220341, y: 0.48358038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49aab2119a3c97843924a9578ef9326d
+      internalID: -526035590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 966
+        width: 155
+        height: 208
+      alignment: 9
+      pivot: {x: 0.58813673, y: 0.48358008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e82c3869811d3b4b8f0a69879e7065e
+      internalID: 1686326938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump3
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 962
+        width: 160
+        height: 208
+      alignment: 9
+      pivot: {x: 0.649419, y: 0.51641935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2bbce4115872e48bdb63f24f429f62
+      internalID: 1615403836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump4
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 965
+        width: 155
+        height: 215
+      alignment: 9
+      pivot: {x: 0.7170347, y: 0.51588506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42599be552b99248955aff318f8f39a
+      internalID: 860510162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump5
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 960
+        width: 209
+        height: 221
+      alignment: 9
+      pivot: {x: 0.6552407, y: 0.51545376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22e774f031b10a40a506488a147b9aa
+      internalID: -1822375410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump6
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 957
+        width: 216
+        height: 226
+      alignment: 9
+      pivot: {x: 0.57115173, y: 0.4546641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73e7b59168b3cb4aba61097427f756e
+      internalID: 1623675624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump7
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 953
+        width: 173
+        height: 270
+      alignment: 9
+      pivot: {x: 0.47038773, y: 0.40513012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282b099b610fb0b4585ebc14dc076248
+      internalID: 757669512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump8
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 945
+        width: 149
+        height: 308
+      alignment: 9
+      pivot: {x: 0.36075136, y: 0.35751146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f218aaae2e5dc04eab187cc7971f1a3
+      internalID: 1195654990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammer1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 606
+        width: 266
+        height: 249
+      alignment: 9
+      pivot: {x: 0.7155285, y: 0.40039775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8129354864dcf419acc3c25a1148c3
+      internalID: -17849006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammer2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 602
+        width: 229
+        height: 283
+      alignment: 9
+      pivot: {x: 0.68911874, y: 0.36850008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad7445141b1e604b99b5246cdcd8c76
+      internalID: -2008489376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammer3
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 601
+        width: 199
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5923299, y: 0.33606395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9e726c0706516489a8682714d8fcb0
+      internalID: 571397399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammer4
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 607
+        width: 168
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5259174, y: 0.31833676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6daffe17b13e64641984a4a0396d0fec
+      internalID: -1298571965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammer5
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 601
+        width: 232
+        height: 316
+      alignment: 9
+      pivot: {x: 0.3963465, y: 0.33993065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7efc3c92b2afa4796c9640eaa1131d
+      internalID: -1406045540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammer6
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 604
+        width: 207
+        height: 255
+      alignment: 9
+      pivot: {x: 0.27693686, y: 0.4175336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5463a7d2dc463504b8cf2b3f6529ef05
+      internalID: -1095450563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hammer7
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 599
+        width: 231
+        height: 234
+      alignment: 9
+      pivot: {x: 0.30019045, y: 0.46581718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7390cc84a5c0f2648992a6d9138a44e3
+      internalID: -572483920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HammerWalk1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 251
+        width: 259
+        height: 258
+      alignment: 9
+      pivot: {x: 0.7271253, y: 0.39874068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7780440cdfc4e5644be2b147f986c6dd
+      internalID: 1466414685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HammerWalk2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 256
+        width: 220
+        height: 284
+      alignment: 9
+      pivot: {x: 0.6503325, y: 0.33026618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea2edba91143534180f6e4d96c6b4b6
+      internalID: -1628138086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HammerWalk3
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 253
+        width: 180
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5996775, y: 0.35280314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00de4b998ffd77341a5f387da74654ef
+      internalID: 1590518559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HammerWalk4
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 256
+        width: 179
+        height: 319
+      alignment: 9
+      pivot: {x: 0.49093065, y: 0.330059}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d73e5f1381318c4883e3c0b39cf3bf4
+      internalID: 40281838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HammerWalk5
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 253
+        width: 207
+        height: 300
+      alignment: 9
+      pivot: {x: 0.2789218, y: 0.3710086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd99ac33dd3d0634dba39af3f82bdd4e
+      internalID: -1403788657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HammerWalk6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 253
+        width: 201
+        height: 224
+      alignment: 9
+      pivot: {x: 0.29749203, y: 0.46016952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb20712771032546a8bfaaaf9849127
+      internalID: 2044957563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HammerWalk7
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 261
+        width: 231
+        height: 227
+      alignment: 9
+      pivot: {x: 0.28025335, y: 0.477111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6841805e7649e34cb2b92e033d0c423
+      internalID: -732904866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jump8: 1195654990
+      HammerWalk5: -1403788657
+      Hammer1: -281631262
+      snoopy_walking_3: -1089932559
+      Iddle3: -1443506965
+      Iddle4: -503545694
+      Jump2: 1686326938
+      Jump4: 860510162
+      HammerWalk6: 2044957563
+      snoopy_walking_1: 915881986
+      HammerWalk1: 1466414685
+      Hammer4: -1298571965
+      Hammer3: 571397399
+      snoopy_walking_2: 2950446
+      HammerWalk3: 1590518559
+      snoopy_walking_7: -1563302899
+      Hammer5: -1406045540
+      Hammer6: -1095450563
+      Hammer7: -572483920
+      HammerWalk2: -1389639988
+      iddle5: 1517299066
+      Jump6: 1623675624
+      Jump3: 1615403836
+      Jump1: -526035590
+      HammerWalk4: 40281838
+      snoopy_walking_4: -1903108545
+      Iddle2: 249423624
+      HammerWalk7: -732904866
+      Jump5: -1822375410
+      snoopy_walking_5: -681893191
+      Jump7: 757669512
+      snoopy_walking_6: -400395706
+      Iddle1: 408792410
+      Hammer2: -2008489376
+      snoopy_walking_0: 1332419563
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
