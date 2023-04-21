@@ -73,6 +73,7 @@ namespace NotesSpawn
             {
                 hasCollided = true;
                 myAnim.SetTrigger(Tags.NOTE_EXPLOSION);
+                SoundManager.instance.PlayHammerHit();
                 myCollider.enabled = false;
                 if (collision.CompareTag((Tags.HAMMER_TAG)))
                 {

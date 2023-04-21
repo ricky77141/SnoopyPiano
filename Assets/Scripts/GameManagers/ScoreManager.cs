@@ -30,9 +30,9 @@ namespace GameManagers
 
         public void ResetBells()
         {
-            for (int i = 0; i < bells.Length; i++)
+            foreach (var t in bells)
             {
-                bells[i].gameObject.SetActive(false);
+                t.gameObject.SetActive(false);
             }
         }
     }

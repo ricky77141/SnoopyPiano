@@ -14,4 +14,5 @@ public static class Tags
     public static string BARRIER_TAG = "Barrier";
     public static string NOTE_EXPLOSION = "Explode";
     public static string NOTE = "Note";
+    public static string MAINLEVEL = "MainMenu";
 }

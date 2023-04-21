@@ -14,6 +14,7 @@ namespace GameManagers
         private SpriteRenderer myRenderer;
         private int noteCollisions = 0;
         private bool hasCollided;
+        private GameObject[] notes;
 
         private void Awake()
         {
@@ -27,6 +28,8 @@ namespace GameManagers
                 hasCollided = true;
                 sleep.SetActive(false);
                 noteCollisions++;
+                SoundManager.instance.PlayBellHit();
+                SoundManager.instance.PlayWoodStockSurprise();
                 if (noteCollisions >= 3)
                 {
                     myRenderer.sprite = woodstock3;
@@ -39,7 +42,12 @@ namespace GameManagers
                 ScoreManager.instance.SetBell(noteCollisions-1);
                 if (myRenderer.sprite == woodstock3)
                 {
+                    if (LiveManager.instance.RemoveLives() == 0)
+                    {
+                        return;
+                    }
                     warningCanvas.SetActive(true);
+                    SoundManager.instance.PlayWoodStockCry();
                     Time.timeScale = 0;
                 }
             }
@@ -55,10 +63,14 @@ namespace GameManagers
 
         public void ResetThings()
         {
+            notes = GameObject.FindGameObjectsWithTag(Tags.NOTE);
+            foreach (GameObject note in notes)
+            {
+                note.gameObject.SetActive(false);
+            }
             Time.timeScale = 1;
-            warningCanvas.SetActive(false);
-            LiveManager.instance.RemoveLives();
             ScoreManager.instance.ResetBells();
+            warningCanvas.SetActive(false);
             myRenderer.sprite = woodstock1;
             noteCollisions = 0;
             sleep.SetActive(true);

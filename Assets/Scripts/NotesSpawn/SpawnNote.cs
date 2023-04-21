@@ -37,7 +37,6 @@ namespace NotesSpawn
             
             MoveNote newMoveNote = notesPool[noteToSpawn].GetNote();
             newMoveNote.transform.position = spawnerPoints[Random.Range(0, spawnerPoints.Length)].position;
-
             ResetTimer();
         }
 

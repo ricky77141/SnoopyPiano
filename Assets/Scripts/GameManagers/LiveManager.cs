@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace GameManagers
@@ -8,6 +9,7 @@ namespace GameManagers
         public static LiveManager instance;
 
         [SerializeField] private Image[] livesImage;
+        [SerializeField] private GameObject gameOverCanvas;
         private int lives = 3;
         
         private void Awake()
@@ -16,10 +18,23 @@ namespace GameManagers
                 instance = this;
         }
 
-        public void RemoveLives()
+        public int RemoveLives()
         {
             lives--;
             livesImage[lives].gameObject.SetActive(false);
+            if (lives == 0)
+            {
+                gameOverCanvas.SetActive(true);
+                Time.timeScale = 0;
+            }
+
+            return lives;
         }
+
+        public void LoadMainMenuScene()
+        {
+            SceneManager.LoadScene(Tags.MAINLEVEL);
+        }
+        
     }
 }

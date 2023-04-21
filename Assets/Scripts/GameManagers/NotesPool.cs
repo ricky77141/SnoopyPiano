@@ -41,6 +41,6 @@ namespace GameManagers
         {
             note.gameObject.SetActive(false);
         }
-        
+
     }
 }

@@ -1,3 +1,4 @@
+using GameManagers;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -81,6 +82,7 @@ namespace Player
                 playerAnim.PlayHammerWalk();
             else
                 playerAnim.PlayHammer();
+            SoundManager.instance.PlayHammerWoosh();
         }
         
         bool IsGrounded()
