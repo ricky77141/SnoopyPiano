@@ -30,11 +30,5 @@ namespace GameManagers
 
             return lives;
         }
-
-        public void LoadMainMenuScene()
-        {
-            SceneManager.LoadScene(Tags.MAINLEVEL);
-        }
-        
     }
 }

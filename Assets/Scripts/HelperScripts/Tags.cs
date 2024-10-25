@@ -15,4 +15,5 @@ public static class Tags
     public static string NOTE_EXPLOSION = "Explode";
     public static string NOTE = "Note";
     public static string MAINLEVEL = "MainMenu";
+    public static string PLAYLEVEL = "SampleScene";
 }
